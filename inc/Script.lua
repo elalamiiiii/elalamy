@@ -1206,7 +1206,7 @@ if redis:get(alamy.."getidstatus"..msg.chat_id_) == "Photo" then
 		}
 		ssssys = ali[math.random(#ali)]
 		if not redis:get("KLISH:ID") then
-		sendPhoto(msg.chat_id_,msg.id_,data.photos_[0].sizes_[1].photo_.persistent_id_,'𖣐-𝙽𝙰𝙼𝙴↠ ↠   '..Namei..'     \n𖡦-𝚄𝚂𝙴𝚁↠ ↠ '..UserNameID..' .\n𖡨-𝙼𝚂𝙶𝙴↠ ↠ '..msgs..' .\n𖤍-𝚂𝚃𝙰↠ ↠ '..msg.TheRank..' .\n𖤓-𝙸𝙳↠ ↠ '..msg.sender_user_id_..' \n𖤓-𝙲𝙷↠ ↠ @SOURCE_alamy .',dl_cb,nil)
+		sendPhoto(msg.chat_id_,msg.id_,data.photos_[0].sizes_[1].photo_.persistent_id_,'- 🇪🇬 𝒖𝒔𝒆𝒓𝒏𝒂𝒎𝒆 .𖣂.   '..Namei..'     \n𖡦-𝚄𝚂𝙴𝚁↠ ↠ '..UserNameID..' .\n- 🇪🇬 𝒎𝒔𝒈𝒔 . 𖣂. '..msgs..' .\n- 🇪🇬 𝒔𝒕𝒂𝒔𝒕 .  𖣂. '..msg.TheRank..' .\n- 🇪🇬 𝒊𝒅 .  𖣂. '..msg.sender_user_id_..' \n- 🇪🇬 𝒄𝒉 .  𖣂.@FlassTas10 .',dl_cb,nil)
 		else
 		Text = redis:get("KLISH:ID")
 		Text = Text:gsub('IDGET',msg.sender_user_id_)
@@ -1221,7 +1221,7 @@ if redis:get(alamy.."getidstatus"..msg.chat_id_) == "Photo" then
 		end
 	else
 		if not redis:get("KLISH:ID") then
-		sendMsg(msg.chat_id_,msg.id_,'• لا يمكنني عرض صورتك لانك قمت بحظر البوت او انك لاتملك صوره في بروفيلك ...!\n𖡦-𝚄𝚂𝙴𝚁↠ ↠ '..UserNameID..' .\n𖣐-𝙽𝙰𝙼𝙴↠ ↠   '..Namei..'     \n𖡨-𝙼𝚂𝙶𝙴↠ ↠ '..msgs..' .\n𖤍-𝚂𝚃𝙰↠ ↠ '..msg.TheRank..' .\n𖤓-𝙸𝙳↠ ↠ '..msg.sender_user_id_..' \n𖤓-𝙲𝙷↠ ↠ @SOURCE_alamy .')
+		sendMsg(msg.chat_id_,msg.id_,'• لا يمكنني عرض صورتك لانك قمت بحظر البوت او انك لاتملك صوره في بروفيلك ...!\n𖡦-𝚄𝚂𝙴𝚁↠ ↠ '..UserNameID..' .\n- 🇪🇬 𝒖𝒔𝒆𝒓𝒏𝒂𝒎𝒆 .𖣂.   '..Namei..'     \n- 🇪🇬 𝒎𝒔𝒈𝒔 . 𖣂. '..msgs..' .\n- 🇪🇬 𝒔𝒕𝒂𝒔𝒕 .  𖣂. '..msg.TheRank..' .\n- 🇪🇬 𝒊𝒅 .  𖣂. '..msg.sender_user_id_..' \n- 🇪🇬 𝒄𝒉 .  𖣂.@FlassTas10 .')
 		else
 		Text = redis:get("KLISH:ID")
 		Text = Text:gsub('IDGET',msg.sender_user_id_)
@@ -1248,7 +1248,7 @@ else
 		Text = Text:gsub('User_Points',nko)
 		sendMsg(msg.chat_id_,msg.id_,Flter_Markdown(Text))
 		else
-		sendMsg(msg.chat_id_,msg.id_,'• الايدي بالصوره معطل \n𖣐-𝙽𝙰𝙼𝙴↠ ↠   '..Namei..'     \n𖡦-𝚄𝚂𝙴𝚁↠ ↠ '..UserNameID..' .\n𖡨-𝙼𝚂𝙶𝙴↠ ↠ '..msgs..' .\n𖤍-𝚂𝚃𝙰↠ ↠ '..msg.TheRank..' .\n𖤓-𝙸𝙳↠ ↠ '..msg.sender_user_id_..' .')
+		sendMsg(msg.chat_id_,msg.id_,'• الايدي بالصوره معطل \n- 🇪🇬 𝒖𝒔𝒆𝒓𝒏𝒂𝒎𝒆 .𖣂.   '..Namei..'     \n𖡦-𝚄𝚂𝙴𝚁↠ ↠ '..UserNameID..' .\n- 🇪🇬 𝒎𝒔𝒈𝒔 . 𖣂. '..msgs..' .\n- 🇪🇬 𝒔𝒕𝒂𝒔𝒕 .  𖣂. '..msg.TheRank..' .\n- 🇪🇬 𝒊𝒅 .  𖣂. '..msg.sender_user_id_..' .')
 		end
 end
 
