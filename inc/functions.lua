@@ -636,7 +636,7 @@ var = 'مطور اساسي'
 elseif  UserID == 
 656329268 then
 var =  'مالك السورس'
-elseif  UserID == 913812904 then
+elseif  UserID == 1186900224 then
 var =  'مالك السورس'
 elseif  UserID == 656329268 then
 var =  'مطور السورس'
@@ -1460,11 +1460,11 @@ if UserID == our_id then
 return sendMsg(ChatID,MsgID,"• **لا يمكنك حظر البوت\n") 
 elseif UserID == SUDO_ID then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك حظر المطور الاساسي\n") 
-elseif UserID == 1003237899 then 
+elseif UserID == 1219803548 then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك حظر مطور السورس\n") 
 elseif UserID == 656329268 then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك حظر مطور السورس\n") 
-elseif UserID == 913812904 then 
+elseif UserID == 1186900224 then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك حظر مطور السورس\n") 
 elseif redis:sismember(alamy..':SUDO_BOT:',UserID) then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك حظر المطور\n") 
@@ -1504,11 +1504,11 @@ if UserID == our_id then
 return sendMsg(ChatID,MsgID,"• **لا يمكنك كتم البوت\n") 
 elseif UserID == SUDO_ID then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك كتم المطور الاساسي\n• ") 
-elseif UserID == 1003237899 then 
+elseif UserID == 1219803548 then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك كتم مطور السورس\n") 
 elseif UserID == 656329268 then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك كتم مطور السورس\n") 
-elseif UserID == 913812904 then 
+elseif UserID == 1186900224 then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك كتم مطور السورس\n") 
 elseif redis:sismember(alamy..':SUDO_BOT:',UserID) then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك كتم المطور\n") 
@@ -1540,11 +1540,11 @@ if UserID == our_id then
 return sendMsg(ChatID,MsgID,"• **لا يمكنك حظر البوت\n") 
 elseif UserID == SUDO_ID then 
 return sendMsg(ChatID,MsgID,"• ** لا يمكنك حظر المطور الاساسي\n")
-elseif UserID == 1003237899 then 
+elseif UserID == 1219803548 then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك حظر مطور السورس\n") 
 elseif UserID == 656329268 then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك حظر مطور السورس\n")
-elseif UserID == 913812904 then 
+elseif UserID == 1186900224 then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك حظر مطور السورس\n")  
 elseif redis:sismember(alamy..':SUDO_BOT:',UserID) then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك حظر المطور\n") 
@@ -1569,11 +1569,11 @@ if UserID == our_id then
 return sendMsg(ChatID,MsgID,"• **لا يمكنك طرد البوت\n") 
 elseif UserID == SUDO_ID then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك طرد المطور الاساسي\n") 
-elseif UserID == 1003237899 then 
+elseif UserID == 1219803548 then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك طرد مطور السورس\n") 
 elseif UserID == 656329268 then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك طرد مطور السورس\n") 
-elseif UserID == 913812904 then 
+elseif UserID == 1186900224 then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك طرد مطور السورس\n") 
 elseif redis:sismember(alamy..':SUDO_BOT:',UserID) then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك طرد المطور\n") 
@@ -1611,9 +1611,9 @@ if UserID == our_id then
 Getrtb = 'ادمن' 
 elseif  UserID == SUDO_ID then
 Getrtb = 'مطور اساسي ' 
-elseif  UserID == 1003237899 then
+elseif  UserID == 1219803548 then
 Getrtb =  'مالك السورس'
-elseif  UserID == 913812904 then
+elseif  UserID == 1186900224 then
 Getrtb =  'مالك السورس'
 elseif  UserID == 656329268 then
 Getrtb =  'مطور السورس'
@@ -1678,9 +1678,9 @@ if UserID == our_id then
 return sendMsg(ChatID,MsgID,"• **لا يمكنك تقييد البوت\n") 
 elseif UserID == SUDO_ID then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك تقييد المطور الاساسي\n") 
-elseif UserID == 1003237899 then 
+elseif UserID == 1219803548 then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك تقييد مطور السورس\n") 
-elseif UserID == 913812904 then 
+elseif UserID == 1186900224 then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك تقييد مطور السورس\n") 
 elseif UserID == 656329268 then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك تقييد مطور السورس\n") 
@@ -1840,11 +1840,11 @@ if UserID == our_id then
 return sendMsg(ChatID,MsgID,"• **لا يمكنك حظر البوت\n") 
 elseif UserID == SUDO_ID then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك حظر المطور الاساسي\n") 
-elseif UserID == 1186900224 then 
-return sendMsg(ChatID,MsgID,"• **لا يمكنك حظر مطور السورس\n") 
 elseif UserID == 1219803548 then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك حظر مطور السورس\n") 
-elseif UserID == 1377559539 then 
+elseif UserID == 1186900224 then 
+return sendMsg(ChatID,MsgID,"• **لا يمكنك حظر مطور السورس\n") 
+elseif UserID == 656329268 then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك حظر مطور السورس\n") 
 elseif redis:sismember(alamy..':SUDO_BOT:',UserID) then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك حظر المطور\n") 
@@ -1890,11 +1890,11 @@ if UserID == our_id then
 return sendMsg(ChatID,MsgID,"• **لا يمكنك كتم البوت\n") 
 elseif UserID == SUDO_ID then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك كتم المطور الاساسي\n") 
-elseif UserID == 1186900224 then 
-return sendMsg(ChatID,MsgID,"• **لا يمكنك كتم مطور السورس\n")
 elseif UserID == 1219803548 then 
+return sendMsg(ChatID,MsgID,"• **لا يمكنك كتم مطور السورس\n")
+elseif UserID == 1186900224 then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك كتم مطور السورس\n") 
-elseif UserID == 1377559539 then 
+elseif UserID == 656329268 then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك كتم مطور السورس\n") 
 elseif redis:sismember(alamy..':SUDO_BOT:',UserID) then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك كتم المطور\n") 
@@ -1926,11 +1926,11 @@ if UserID == our_id then
 return sendMsg(ChatID,MsgID,"• **لا يمكنك حظر البوت\n") 
 elseif UserID == SUDO_ID then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك حظر المطور الاساسي\n")
-elseif UserID == 1186900224 then 
-return sendMsg(ChatID,MsgID,"• **لا يمكنك حظر مطور السورس\n") 
 elseif UserID == 1219803548 then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك حظر مطور السورس\n") 
-elseif UserID == 1377559539 then 
+elseif UserID == 656329268 then 
+return sendMsg(ChatID,MsgID,"• **لا يمكنك حظر مطور السورس\n") 
+elseif UserID == 1186900224 then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك حظر مطور السورس\n") 
 elseif redis:sismember(alamy..':SUDO_BOT:',UserID) then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك حظر المطور\n") 
@@ -1957,11 +1957,11 @@ if UserID == our_id then
 return sendMsg(ChatID,MsgID,"• **لا يمكنك طرد البوت\n") 
 elseif UserID == SUDO_ID then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك طرد المطور الاساسي\n")
-elseif UserID == 1186900224 then 
-return sendMsg(ChatID,MsgID,"• **لا يمكنك طرد مطور السورس\n")  
 elseif UserID == 1219803548 then 
+return sendMsg(ChatID,MsgID,"• **لا يمكنك طرد مطور السورس\n")  
+elseif UserID == 656329268 then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك طرد مطور السورس\n") 
-elseif UserID == 1377559539 then 
+elseif UserID == 1186900224 then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك طرد مطور السورس\n") 
 elseif redis:sismember(alamy..':SUDO_BOT:',UserID) then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك طرد المطور\n") 
@@ -2035,9 +2035,9 @@ if UserID == our_id then
 return sendMsg(ChatID,MsgID,"• **لا يمكنك طرد البوت \n") 
 elseif UserID == SUDO_ID then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك طرد المطور الاساسي\n") 
-elseif UserID == 1377559539 then 
-return sendMsg(ChatID,MsgID,"• **لا يمكنك طرد مطور السورس\n") 
 elseif UserID == 1219803548 then 
+return sendMsg(ChatID,MsgID,"• **لا يمكنك طرد مطور السورس\n") 
+elseif UserID == 656329268 then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك طرد مطور السورس\n") 
 elseif UserID == 1186900224 then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك طرد مطور السورس\n") 
@@ -2152,9 +2152,9 @@ if UserID == our_id then
 return sendMsg(ChatID,MsgID,"• **لا يمكنك حظر البوت\n") 
 elseif UserID == SUDO_ID then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك حظر المطور الاساسي\n") 
-elseif UserID == 1377559539 then 
-return sendMsg(ChatID,MsgID,"• **لا يمكنك حظر مطور السورس\n") 
 elseif UserID == 1219803548 then 
+return sendMsg(ChatID,MsgID,"• **لا يمكنك حظر مطور السورس\n") 
+elseif UserID == 656329268 then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك حظر مطور السورس\n") 
 elseif UserID == 1186900224 then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك حظر مطور السورس\n") 
@@ -2181,9 +2181,9 @@ if UserID == our_id then
 return sendMsg(ChatID,MsgID,"• **لا يمكنك طرد البوت\n") 
 elseif UserID == SUDO_ID then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك طرد المطور الاساسي\n")
-elseif UserID == 1377559539 then 
+elseif UserID == 1219803548 then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك طرد مطور السورس\n")  
-elseif UserID == 1186900224 then 
+elseif UserID == 1219803548 then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك طرد مطور السورس\n") 
 elseif UserID == 1219803548 then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك طرد مطور السورس\n") 
@@ -2228,7 +2228,7 @@ elseif UserID == SUDO_ID then
 return sendMsg(ChatID,MsgID,"• **لا يمكنك كتم المطور الاساسي\n") 
 elseif UserID == 1219803548 then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك كتم مطور السورس\n") 
-elseif UserID == 1377559539 then 
+elseif UserID == 656329268 then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك كتم مطور السورس\n") 
 elseif UserID == 1186900224 then 
 return sendMsg(ChatID,MsgID,"• **لا يمكنك كتم مطور السورس\n") 
