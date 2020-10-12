@@ -2376,8 +2376,8 @@ return [[
 ➪│𝒔𝒐𝒖𝒓𝒄𝒆 𝒂𝒍𝒂𝒎𝒚 ♕
 ↯↯↯↯↯↯↯↯↯↯↯↯↯↯↯↯
 ➪╿[𝒅𝒆𝒗 𖤍](t.me/Alamy3)
-➪│[𝒅𝒆𝒗 𖤍](t.me/@DT_TC)
-➪│[𝒅𝒆𝒗 𖤍](t.me/@XxxMalificentxxX)
+➪│[𝒅𝒆𝒗 𖤍](t.me/DT_TC)
+➪│[𝒅𝒆𝒗 𖤍](t.me/XxxMalificentxxX)
 ➪╽[𝒔𝒐𝒖𝒓𝒄𝒆 𝒂𝒍𝒂𝒎𝒚 ](t.me/FlassTas10)
 ➪╽[Bot⇒](t.me/FlassTas4_bot)
 ↯↯↯↯↯↯↯↯↯↯↯↯↯↯↯↯
