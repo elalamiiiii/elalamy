@@ -27,11 +27,11 @@ echo -e "${GREEN}
        ▇ @Alamy3   ▇                     ▄▇▄▄▄▄▄▇▄                            
     ▄▇                                           ¦ Dev : @Alamy3
  ▄▇ ¦ Dev : @Alamy3                   
-                                                               ¦ Source SELA BY @Alamy3
+                                                               ¦ Source Alamy BY @DT_TC
 ----------------------------------------------------------------------${CNIL}"
 echo -e "${RED}| للاسف لايمكنك تنصيب السورس ع نظام اوبنتو {${Version}} يجب ان يكون على اصدار  اقل مثلا  ${SMAY}14 او 16
 ${CNIL}";
-echo -e "${RED}| Sorry Canot install Source on Ubuntu {${Version}} Please install system To Ubuntu ${SMAY}14 or 16 ${RED} For Run The Source SELA 
+echo -e "${RED}| Sorry Canot install Source on Ubuntu {${Version}} Please install system To Ubuntu ${SMAY}14 or 16 ${RED} For Run The Source Alamy 
 ${CNIL}";
 exit;
 fi
@@ -41,7 +41,7 @@ if [ ! -f "./TG" ]; then
 echo -e "${RED}
 ¦
 ¦ CAUTION:${WHITB} Your Not Dwonload TG .
-¦ NOW I Run File ${Yellow}./run${WHITB} To install ${SMAY}Source SELA${CNIL} . \n
+¦ NOW I Run File ${Yellow}./run${WHITB} To install ${SMAY}Source Alamy${CNIL} . \n
 \n\n"
 chmod +x ./ins
 ./ins
@@ -70,10 +70,10 @@ sudo rm -fr ../.telegram-cli
 done
 else
 
-if ! screen -list | grep -q "SELA"; then
-screen -S SELA ./run R
+if ! screen -list | grep -q "Alamy"; then
+screen -S Alamy ./run R
 fi
-screen -S SELA -X kill
-screen -S SELA ./run R
+screen -S Alamy -X kill
+screen -S Alamy ./run R
 fi
 
