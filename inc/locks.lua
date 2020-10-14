@@ -4,7 +4,7 @@
 ---------------Lock ------------------- 
 function unlock_waring(msg)
   if not msg.Admin then return "-**هذا الامر يخص {الادمن,المدير,المنشئ,المطور} فقط  \n❕" end
-  if redis:get(sela..'lock_woring'..msg.chat_id_) then 
+  if redis:get(Alamy..'lock_woring'..msg.chat_id_) then 
   return "-**أهلا عزيزي "..msg.TheRankCmd.." \n-**التحذير مفعل مسبقاً \n✓" 
   else redis:set(Alamy..'lock_woring'..msg.chat_id_,true)
   return "-**أهلا عزيزي "..msg.TheRankCmd.."\n-**تــــم تفعيل التحذير \n✓" 
@@ -272,7 +272,7 @@ function unlock_waring(msg)
   ---------------Lock twasel-------------------
   function lock_twasel(msg)
   if not msg.SudoBase then return "-**هذا الامر يخص المطور الاساسي فقط  \n❕" end
-  if redis:get(sela..'lock_twasel') then
+  if redis:get(Alamy..'lock_twasel') then
   return '-**أهلا عزيزي '..msg.TheRankCmd..'\n-**التواصل بالتاكيد تــــم تعطيله \n✓'
   else
   redis:set(Alamy..'lock_twasel',true)
@@ -282,7 +282,7 @@ function unlock_waring(msg)
   
   function unlock_twasel(msg)
   if not msg.SudoBase then return "-**هذا الامر يخص المطور الاساسي فقط  \n❕" end
-  if not redis:get(sela..'lock_twasel') then
+  if not redis:get(Alamy..'lock_twasel') then
   return '-**أهلا عزيزي '..msg.TheRankCmd..'\n-**التواصل بالتاكيد تــــم تفعيله \n✓'
   else 
   redis:del(Alamy..'lock_twasel')
@@ -293,7 +293,7 @@ function unlock_waring(msg)
   ---------------Lock bro-------------------
   function lock_brod(msg)
   if not msg.SudoBase then return "-**هذا الامر يخص المطور فقط  ❕" end
-  if not redis:get(sela..'lock_brod') then
+  if not redis:get(Alamy..'lock_brod') then
   return '-**أهلا عزيزي '..msg.TheRankCmd..'\n-**اذاعه المطورين بالتاكيد تــــم تعطيله \n✓'
   else
   redis:del(Alamy..'lock_brod')
@@ -334,7 +334,7 @@ function unlock_waring(msg)
   ---------------Lock bot service-------------------
   function lock_service(msg)
   if not msg.SudoBase then return "-**هذا الامر يخص المطور الاساسي فقط  \n❕" end
-  if not redis:get(sela..'lock_service') then
+  if not redis:get(Alamy..'lock_service') then
   return '-**أهلا عزيزي '..msg.TheRankCmd..'\n-**تــــم بالتاكيد تعطيل نظام البوت خدمي \n✓'
   else
   redis:del(Alamy..'lock_service')
